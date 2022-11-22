@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo pacman -Sy --noconfirm lxde lxdm
+sudo systemctl enable lxdm
+echo DONE
