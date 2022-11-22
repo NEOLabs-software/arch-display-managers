@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo pacman -S --needed --noconfirm xorg
+sudo pacman -S --needed --noconfirm lxqt xdg-utils ttf-freefont sddm
+sudo pacman -S --needed --noconfirm libpulse libstatgrab libsysstat lm_sensors network-manager-applet oxygen-icons pavucontrol-qt
+sudo pacman -S --needed --noconfirm firefox vlc filezilla leafpad xscreensaver archlinux-wallpaper
+systemctl enable sddm
+systemctl enable NetworkManager
+echo DONE

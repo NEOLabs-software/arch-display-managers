@@ -1,0 +1,6 @@
+#!/bin/bash
+pacman -Syu --noconfirm
+pacman -S --needed --noconfirm pantheon lightdm-pantheon-greeter sound-theme-elementary switchboard lightdm-gtk-greeter elementary-icon-theme elementary-wallpapers pantheon-applications-menu wingpanel-indicator-session wingpanel-indicator-datetime inter-font firefox xorg lightdm
+systemctl enable lightdm
+systemctl enable NetworkManager
+echo DONE

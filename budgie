@@ -1,0 +1,8 @@
+#!/bin/bash
+pacman -Syu --noconfirm 
+pacman -S --noconfirm xorg xorg-server
+pacman -S --noconfirm budgie-desktop
+sudo pacman -S --noconfirm lightdm
+sudo pacman -S --noconfirm lightdm-gtk-greeter
+systemctl enable lightdm.service
+echo DONE
