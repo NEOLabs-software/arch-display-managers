@@ -5,4 +5,5 @@ pacman -S --noconfirm budgie-desktop
 sudo pacman -S --noconfirm lightdm
 sudo pacman -S --noconfirm lightdm-gtk-greeter
 systemctl enable lightdm.service
+pacman -S --noconfirm networkmanagersystemctl enable NetworkManager.service
 echo DONE

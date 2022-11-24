@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo pacman –Syu --noconfirm
 sudo pacman -S --noconfirm xfce4 xfce4-goodies
-sudo pacman -S --noconfirm gdm
-systemctl enable gdm.service
+sudo pacman -S --noconfirm lightdm lightdm-gtk-greeter
+systemctl enable lightdm.service
 echo DONE

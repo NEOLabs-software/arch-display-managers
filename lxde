@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo pacman -Sy --noconfirm lxde lxdm
+sudo pacman -Sy --noconfirm lxde lxdm networkmanager
 sudo systemctl enable lxdm
+systemctl enable NetworkManager.service
 echo DONE

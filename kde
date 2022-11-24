@@ -1,5 +1,5 @@
 #!/bin/bash
-pacman -S --noconfirm xorg plasma plasma-wayland-session kde-applications 
+pacman -S --noconfirm xorg plasma plasma-wayland-session kde-applications networkmanager
 systemctl enable sddm.service
 systemctl enable NetworkManager.service
 echo DONE
